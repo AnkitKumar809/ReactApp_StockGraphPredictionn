@@ -1,0 +1,53 @@
+.App {
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 30px auto; 
+  padding: 20px; 
+  background-color: #f0f0f0; 
+  border: 1px solid #ccc; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.comName{
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.tag{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 50px;
+}
+
+.Sdata{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.btn{
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: #00bbd4; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  text-align: center; 
+  text-decoration: none; 
+}
+.btn:hover {
+  background-color: #005a9e; 
+  color: #fff; /* Change text color on hover */
+}
+
+/* Style for button focus effect */
+.btn:focus {
+  outline: none; 
+  box-shadow: 0 0 6px #0078d4; 
+}
+
